@@ -1,0 +1,35 @@
+.wrapper {
+  border: "1px solid grey";
+  display: "inline-block";
+  margin: 30;
+  padding: 8;
+  flex-direction: "row";
+}
+.card {
+  width: 300;
+  height: 500;
+  background: "#de3151";
+}
+.image {
+  width: 300;
+  height: 250;
+}
+.commentText {
+  color: "white";
+  font-size: 30;
+  font-weight: "bold";
+  margin-top: 10;
+  margin-bottom: 0;
+  margin-left: 10;
+}
+.discriptText {
+  color: "white";
+  font-size: 18;
+  margin-top: 10;
+  margin-bottom: 0;
+  margin-left: 10;
+}
+.contentContainer {
+  display: "flex";
+  flex-direction: "column";
+}
