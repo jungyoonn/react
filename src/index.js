@@ -18,6 +18,11 @@ import Counter from './chapter_07/Counter';
 import MyArray from './chapter_07/MyArray';
 import MyArray2 from './chapter_07/MyArray2';
 import MyEffect from './chapter_07/MyEffect';
+import Toggle from './chapter_08/Toggle';
+import MyEvent from './chapter_08/MyEvent';
+import LandingPage from './chapter_09/LandingPage';
+import NumberList from './chapter_10/NumberList';
+import AttendanceBook from './chapter_10/AttendanceBook';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // setInterval(() => {
@@ -34,7 +39,12 @@ root.render(
     {/* <NotificationList /> */}
     {/* <Counter /> */}
     {/* <MyArray2 /> */}
-    <MyEffect />
+    {/* <MyEffect /> */}
+    {/* <Toggle /> */}
+    {/* <MyEvent /> */}
+    {/* <LandingPage /> */}
+    {/* <NumberList numbers={[1,2,3,4,5]} /> */}
+    <AttendanceBook />
   </React.StrictMode>
   );
 // }, 1000);
