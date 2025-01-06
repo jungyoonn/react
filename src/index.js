@@ -17,6 +17,7 @@ import reportWebVitals from './reportWebVitals';
 import Counter from './chapter_07/Counter';
 import MyArray from './chapter_07/MyArray';
 import MyArray2 from './chapter_07/MyArray2';
+import MyEffect from './chapter_07/MyEffect';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // setInterval(() => {
@@ -32,7 +33,8 @@ root.render(
     {/* <AirBnbList /> */}
     {/* <NotificationList /> */}
     {/* <Counter /> */}
-    <MyArray2 />
+    {/* <MyArray2 /> */}
+    <MyEffect />
   </React.StrictMode>
   );
 // }, 1000);
